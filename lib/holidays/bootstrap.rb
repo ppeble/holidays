@@ -62,7 +62,5 @@ module Holidays
     end
   end
 
-  # Deprecated: retained because this constant was effectively public in earlier
-  # versions. Use Holidays::Bootstrap instead.
-  LoadAllDefinitions = Bootstrap
+  private_constant :Bootstrap
 end

@@ -140,4 +140,6 @@ module Holidays
   end
 end
 
-Holidays::Bootstrap.call
+module Holidays
+  Bootstrap.call
+end
